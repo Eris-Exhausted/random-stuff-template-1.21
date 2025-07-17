@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "randomstuff",
+	"version": "${version}",
+	"name": "Random Stuff",
+	"description": "Random crap I thought would be cool. By Eris <3",
+	"authors": [
+		"Eris"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/randomstuff/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.eris.randomstuff.RandomStuff"
+		],
+		"fabric-datagen": [
+			"net.eris.randomstuff.RandomStuffDataGenerator"
+		],
+		"client": [
+			"net.eris.randomstuff.RandomStuffClient"
+		]
+	},
+	"mixins": [
+		"randomstuff.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
