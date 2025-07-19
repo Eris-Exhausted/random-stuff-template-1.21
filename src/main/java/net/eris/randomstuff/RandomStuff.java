@@ -1,5 +1,6 @@
 package net.eris.randomstuff;
 
+import net.eris.randomstuff.block.ModBlocks;
 import net.eris.randomstuff.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class RandomStuff implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
