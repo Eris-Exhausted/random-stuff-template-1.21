@@ -15,6 +15,12 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    public static final Block POISON_MUSHROOM_FULL_BLOCK = registerBlock("poison_mushroom_full_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(0.2f)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
+
     public static final Block POISON_MUSHROOM_BLOCK = registerBlock( "poison_mushroom_block",
             new Block(AbstractBlock.Settings.create()
                     .nonOpaque()
@@ -38,6 +44,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.POISON_MUSHROOM_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.POISON_MUSHROOM_FULL_BLOCK);
         });
     }
 

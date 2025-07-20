@@ -18,7 +18,7 @@ public class ModItems {
     public static void registerModItems() {
         RandomStuff.LOGGER.info("Registering mod items for " + RandomStuff.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(POISON_MUSHROOM);
         });
     }

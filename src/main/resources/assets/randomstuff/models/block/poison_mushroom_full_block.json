@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "randomstuff:block/poison_mushroom_full_block"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "randomstuff:item/poison_mushroom"
+    "cross": "randomstuff:block/poison_mushroom_block"
   }
 }

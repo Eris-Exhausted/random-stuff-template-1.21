@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "randomstuff:item/poison_mushroom_stew"
+    "layer0": "randomstuff:block/poison_mushroom_block"
   }
 }
