@@ -1,7 +1,7 @@
 package net.eris.randomstuff;
 
 import net.eris.randomstuff.block.ModBlocks;
-import net.eris.randomstuff.item.ModItems;
+import net.eris.randomstuff.item.custom.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;

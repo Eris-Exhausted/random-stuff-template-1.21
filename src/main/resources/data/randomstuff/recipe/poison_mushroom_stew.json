@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "randomstuff:poison_mushroom_block"
+    },
+    {
+      "item": "randomstuff:poison_mushroom_block"
+    },
+    {
+      "item": "randomstuff:poison_mushroom_block"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "randomstuff:poison_mushroom_stew"
+  }
+}

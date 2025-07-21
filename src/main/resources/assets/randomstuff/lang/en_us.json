@@ -1,7 +1,7 @@
 {
   "item.randomstuff.poison_mushroom": "Poison Mushroom Stew",
+  "item.randomstuff.poison_mushroom_stew": "Poison Mushroom Stew",
 
   "block.randomstuff.poison_mushroom_block" : "Poison Mushroom",
-
   "block.randomstuff.poison_mushroom_full_block" : "Poison Mushroom Block"
 }
