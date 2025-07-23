@@ -1,6 +1,7 @@
 package net.eris.randomstuff.block;
 
 import net.eris.randomstuff.RandomStuff;
+import net.eris.randomstuff.block.custom.PoisonMushroomBlock;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
@@ -22,7 +23,7 @@ public class ModBlocks {
                     .burnable()));
 
     public static final Block POISON_MUSHROOM_BLOCK = registerBlock( "poison_mushroom_block",
-            new Block(AbstractBlock.Settings.create()
+            new PoisonMushroomBlock(AbstractBlock.Settings.create()
                     .nonOpaque()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
